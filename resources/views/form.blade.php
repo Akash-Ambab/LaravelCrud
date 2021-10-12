@@ -5,7 +5,7 @@
         @csrf
         <table id="formTable">
             <tr>
-                <td class="lable">Your Name <span>*</span></td>
+                <td class="lable">Student Name <span>*</span></td>
                 <td class="control">
                     <input type="text" id="name" name="name">
                     <p id="nameError"></p>
