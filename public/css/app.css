@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: lavenderblush;
+  }
+  
+  .formContainer {
+    width: 100%;
+  }
+  
+  .formContainer h3 {
+    padding: 10px;
+    width: 35rem;
+    margin: 15px auto;
+    text-align: center;
+    background-color: royalblue;
+    color: #fff4df;
+  }
+  
+  .formContainer table {
+    width: 560px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px auto;
+  }
+  
+  td {
+    padding: 5px;
+  }
+  
+  table .lable {
+    width: 160px;
+    padding: 5px;
+  }
+  
+  table .control {
+    width: 500px;
+  }
+  
+  .control input {
+    width: 100%;
+    padding: 10px 5px;
+  }
+  
+  .control input[type=submit] {
+    width: 100px;
+    background-color: #4c8baf;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .control input[type=submit]:hover {
+    background-color: #246388;
+  }
+  
+  .control select {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  #success {
+    display: none;
+    width: 560px;
+    padding: 15px;
+    margin: 15px auto;
+    text-align: center;
+    border: 1px solid violet;
+    background-color: rgb(54, 160, 100);
+  }
+  
+  .errorMsg {
+    border-radius: 5px;
+    border: 2px solid red;
+  }
+  
+  .control p {
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 12px;
+  }
+  
+  .lable span {
+    color: red;
+  }
+
+  .showContainer {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+
+  #showTable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #showTable td, #showTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  #showTable td a {
+    text-decoration: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+  }
+
+  #showTable td a:first-child {
+    background-color: rgb(74, 74, 243);
+    color: white;
+  }
+
+  #showTable td a:last-child {
+    background-color: rgb(243, 80, 74);
+    color: white;
+  }
+  
+  #showTable tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #showTable tr:hover {background-color: #ddd;}
+  
+  #showTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  #showTable td:first-child {
+    width: 5rem;
+  }
+
+  #showTable td:last-child {
+    width: 18rem;
+  }
+
+  .pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+  }
+
+  .pagination li{
+    background-color: lightseagreen;
+    list-style: none;
+    text-align: center;
+    margin: 5px;
+  }
+  
+  .pagination li a {
+    outline: none;
+    border: none;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .pagination li.active {
+    background-color: #4CAF50;
+    color: red;
+  }
+  
+  .pagination li:hover:not(.active) {
+    background-color: red;
+  }
