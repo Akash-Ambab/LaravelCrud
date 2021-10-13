@@ -14,7 +14,7 @@ use Illuminate\Http\Request;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::redirect('/', '/student');
 Route::get('/student', [StudentController::class, 'index']);
 Route::post('/student', [StudentController::class, 'store']);
 Route::get('/student/{id}/edit', [StudentController::class, 'edit']);

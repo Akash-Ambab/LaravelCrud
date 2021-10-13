@@ -16,7 +16,7 @@
         </li>
         @endfor
 
-        @else
+    @else
 
         @for ($i = 1; $i <= $records->lastPage(); $i++)
             @if($i >= $records->currentPage() - 2 && $i <= $records->currentPage() + 2)
