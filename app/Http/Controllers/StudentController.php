@@ -73,4 +73,10 @@ class StudentController extends Controller
         $this->studentRepo->deleteStudent($id);
         return redirect('student');
     }
+
+    public function show()
+    {
+        $data = $this->studentRepo->showAll();
+        return response($data);
+    }
 }

@@ -51,4 +51,9 @@ class StudentRepository {
     public function deleteStudent($id) {
         $this->student->find($id)->delete();
     }
+
+    public function showAll() {
+        $records = $this->student->all();
+        return $records;
+    }
 }
