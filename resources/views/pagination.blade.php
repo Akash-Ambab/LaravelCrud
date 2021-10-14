@@ -15,7 +15,6 @@
             <a href="{{ $records->url($i) }}">{{ $i }}</a>
         </li>
         @endfor
-
     @else
 
         @for ($i = 1; $i <= $records->lastPage(); $i++)

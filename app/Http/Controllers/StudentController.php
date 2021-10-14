@@ -13,7 +13,6 @@ class StudentController extends Controller
         $this->studentRepo = $studentRepo;
     }
     
-    
     /**
      * Display a listing of the resource.
      *

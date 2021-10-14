@@ -1,6 +1,9 @@
 
 <div class="formContainer">
-    <h3>Laravel Crud</h3>
+    <div class="nav">
+        <h3>Welcome {{ucfirst(session()->get('username'))}}</h3>
+        <a id="logout" href="/logout">Logout</a>
+    </div>
     <form id="studentInfo" method="POST">
         @csrf
         <table id="formTable">

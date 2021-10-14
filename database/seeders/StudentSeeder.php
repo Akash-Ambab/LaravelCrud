@@ -16,7 +16,6 @@ class StudentSeeder extends Seeder
     {
         $csvFile = fopen(base_path("database/Records.csv"), "r");
 
-        // $firstLine = true;
         while (($data = fgetcsv($csvFile, 2000, ",")) !== false) {
             Student::create([
                 "name" => $data[0],
