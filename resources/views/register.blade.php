@@ -12,6 +12,7 @@
     @csrf
         <div class="container">
             <h2>Register Page</h2>
+            <hr>
             <label for="name"><b>Your Name</b></label>
             <input type="text" placeholder="Enter Name" name="name" required>
 
@@ -31,8 +32,10 @@
                 @endforeach
             @endif
             <br>
-            <a href="/login">Login</a>
         </div>
     </form>
+    <div class="btn">
+        <a href="/login">Already have an account ?</a>
+    </div>
 </body>
 </html>

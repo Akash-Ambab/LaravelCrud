@@ -6,11 +6,12 @@
 }
 
 form {
-    height: 85vh;
+    position: relative;
+    width: 100vw;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid #f1f1f1;
 }
 
 input {
@@ -24,8 +25,8 @@ input {
 
 button {
     font-size: 20px;
-    background-color: #04AA6D;
-    color: white;
+    background-color: #eec643;
+    color: #183c28;
     padding: 10px 20px;
     margin: 10px 0;
     border: 1px solid white;
@@ -38,22 +39,36 @@ button:hover {
 }
 
 .container {
+    color: white;
     width: 25rem;
     height: auto;
     padding: 16px;
     border: 3px solid #f1f1f1;
-    background-color: cornflowerblue;
+    background-color: #183c28;
 }
 
 .container h2 {
     text-align: center;
 }
 
+hr {
+    border: 1px solid #183c28;
+    margin: 15px 10px;
+}
+
+.btn {
+    display: flex;
+    width: 100%;
+}
+
 a {
-    width: 10px;
+    margin: 0 auto;
     text-decoration: none;
-    color: red;
-    padding: 20px 0;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 15px 20px;
+    background-color: #183c28;
 }
 
 #msg {

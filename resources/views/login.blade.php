@@ -12,7 +12,7 @@
     @csrf
         <div class="container">
             <h2>Login Page</h2>
-
+            <hr>
             <label for="email"><b>Email Address</b></label>
             <input type="email" placeholder="Enter Email Id" name="email" required>
 
@@ -26,8 +26,10 @@
                     <p id="msg">{{$msg}}</p><br>
                 @endforeach
             @endif
-            <a href="/register">Create Account</a><br>
         </div>
     </form>
+    <div class="btn">
+        <a href="/register">Create Account</a><br>
+    </div>
 </body>
 </html>
